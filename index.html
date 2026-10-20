@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopStyle - Boutique en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">ShopStyle</h2>
+        <a class="aa" href="#accueil">Accueil</a>
+        <a  class="aa" href="#produits">Produits</a>
+        <a class="aa" href="#categories">Catégories</a>
+        <a class="aa" href="#commande">Commande</a>
+
+       
+    </nav>
+
+    <!-- Accueil -->
+    <header id="accueil">
+        <h1>Bienvenue sur ShopStyle</h1>
+        <p style="font-size: 14px;">Découvrez notre sélection de produits de qualité</p><br>
+        <a class="cc" href="#produits">decouvre les produits</a>
+    </header>
+
+    <!-- Produits -->
+    <section id="produits">
+        <h2 class="titre">Nos produits</h2>
+        <div class="dv1">
+            <img src="chaussures.jpg" alt="Produit 1">
+            <h3>Chaussures de sport</h3>
+            <p class="cen"> prix : 120 DT</p><br>
+            <a class="gg" href="#commande">commander</a>
+        </div>
+         <div class="dv1">
+            <img src="sac.jpg" alt="Produit 1">
+            <h3>Sac à main</h3>
+            <p class="cen"> prix : 85 DT</p><br>
+            <a class="gg" href="#commande">commander</a>
+         </div>
+         <div class="dv1">
+            <img src="montre.jpg" alt="Produit 1">
+            <h3> montre classique</h3>
+            <p class="cen"> prix : 150 DT</p><br>
+            <a class="gg" href="#commande">commander</a>
+         </div>
+    </header>
+
+       
+        
+    </section>
+
+    <!-- Catégories -->
+    <section id="categories">
+        <h2 class="titre">Nos catégories</h2>
+    <div class="dv2">
+        
+        <ul>
+            <li>vetement</li>
+            <li>chaussures</li>
+            <li>sacs</li>
+            <li>accessoires</li>
+            <li>montres</li>
+        </ul>
+        </div>
+        
+    </section>
+
+    <!-- Tableau -->
+    <section id="tableau">
+        <h2 class="titre">Liste des prix</h2>
+          <div class="dv3">
+            <table>
+    <tr>
+        <th>Produit</th>
+        <th>Catégorie</th>
+        <th>Prix</th>
+    </tr>
+    <tr>
+        <td>Chaussures sport</td>
+        <td>Chaussures</td>
+        <td>120 DT</td>
+    </tr>
+    <tr>
+        <td>Sac à main</td>
+        <td>Sacs</td>
+        <td>85 DT</td>
+    </tr>
+    <tr>
+        <td>Montre classique</td>
+        <td>Accessoires</td>
+        <td>150 DT</td>
+    </tr>
+</table>
+          </div>
+      
+    </section>
+
+    <!-- Formulaire -->
+    <section id="commande">
+        <h2 class="titre">Passer une commande</h2>
+   <form method="post" > 
+<div class="dv4">
+               <label>Nom complet :</label>
+    <input type="text" class="in" placeholder="Votre nom">
+
+    <label>Adresse e-mail :</label>
+    <input type="email" class="in" placeholder="exemple@gmail.com">
+
+    <label>Choisir un produit :</label>
+    <select  class="in">
+        <option>Chaussures sport</option>
+        <option>Sac à main</option>
+        <option>Montre classique</option>
+    </select>
+
+    <label>Quantité :</label>
+    <input type="number"  class="in" value="1">
+
+    <label>Adresse de livraison :</label>
+    <textarea placeholder="Votre adresse"  class="in"></textarea>
+
+    <button type="submit" id="bb">Confirmer la commande</button>
+        </div>
+</form>  
+    
+       
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 ShopStyle - Tous droits réservés</p>
+        
+    </footer>
+</body>
+</html>

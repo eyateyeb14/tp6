@@ -1,0 +1,228 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #202c45;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color: #ffb347;
+}
+
+
+
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.aa
+{
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+   font-size: 12px;
+   color: #ffe5d9;
+   text-decoration: none;
+   transition: 0.5s;
+
+}
+.aa:hover
+{
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.cc
+{
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.cc:hover
+{
+    color: red;
+    background-color: black;
+}
+
+
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #202c45;
+}
+
+/* Boxes produits */
+
+
+/* Catégories */
+
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+}
+
+
+
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.dv1
+{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0px 2px 5px black;
+    width: 300px;
+    margin:0px 111px;
+
+}
+img {
+    max-width: 100%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+.cen
+{
+    text-align: center;
+    font-weight: bold;
+    color: orangered;
+}
+.gg
+{
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+     display: block;
+    margin: auto;
+    width: 100px;
+    margin-bottom: 15px;
+    transition: 0.5s;
+    
+}
+.gg:hover
+{
+    color: red;
+    background-color: #333;
+}
+.dv2
+{
+     display:block;
+    background-color: white;
+    border-left: 10px solid orangered;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    box-shadow: 0px 2px 5px black;
+}
+.dv3
+{
+     display:block;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+th{
+    background-color: #333;
+    color: white;
+
+   
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th ,td
+{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px;
+}
+td:hover{
+    box-shadow:0px 0px 5px red;
+    color: red;
+}
+
+.dv4 {
+    background-color: white;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black;
+}
+
+.dv4 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.in {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+#bb {
+    display: block;
+    margin: 10px auto 0;
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+#bb:hover
+{
+    color:red;
+    background-color: black;
+}
